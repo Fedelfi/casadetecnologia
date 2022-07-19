@@ -1,5 +1,5 @@
 alert("Bienvenidos a la Casa de la Tecnologia")
-const CELULARES = "\n SAMSUNG S8\n XIAOMI P10\n IPHONE X"
+const CELULARES = "\n SAMSUNG A12\n SAMSUNG A53\n MOTOROLA MOTO G200\n SAMSUNG NOTE 10\n MOTOROLA MOTO E40\n IPHONE XS"
 const ACCESORIOS = "\n CARGADOR SAMGUNG S8 \n CARGADOR XIAOMI P10 \n CARGADOR IPHONE X"
 
 alert("Elegi lo que estes necesitando")
@@ -11,14 +11,23 @@ if (tipo == "CELULARES") {
     let valor = prompt("Ingrese el celular que desea")
 
     switch (valor) {
-        case 'SAMSUNG S8':
-            alert("EL VALOR DEL CELULAR ES: $25000");
+        case 'SAMSUNG A12':
+            alert("EL VALOR DEL CELULAR ES: $20000");
             break;
-        case 'XIAOMI P10':
-            alert("EL VALOR DEL CELULAR ES: $15700");
+        case 'SAMSUNG A53':
+            alert("EL VALOR DEL CELULAR ES: $35700");
             break;
-        case 'IPHONE X':
-            alert("EL VALOR DEL CELULAR ES: $45800");
+        case 'MOTOROLA MOTO G200':
+            alert("EL VALOR DEL CELULAR ES: $30800");
+            break;
+        case 'SAMSUNG NOTE 10':
+            alert("EL VALOR DEL CELULAR ES: $33200");
+            break;
+        case 'MOTOROLA MOTO E40':
+            alert("EL VALOR DEL CELULAR ES: $32400");
+            break;
+        case 'IPHONE XS':
+            alert("EL VALOR DEL CELULAR ES: $55500");
             break;
 
         default:
