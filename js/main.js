@@ -7,7 +7,7 @@ alert("Elegi lo que estes necesitando")
 let tipo = (prompt("CELULARES - ACCESORIOS")).toUpperCase();
 
 if (tipo == "CELULARES") {
-    alert(`LOS CELULARES DISPONIBLES HOY SON: ${CELULARES}`)
+    alert(`NLOS CELULARES DISPONIBLES HOY SON: ${CELULARES}`)
     let valor = prompt("Ingrese el celular que desea")
 
     switch (valor) {
