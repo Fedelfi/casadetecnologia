@@ -1,6 +1,11 @@
+//Lista de compra de celulares
 alert("Bienvenidos a la Casa de la Tecnologia")
-const CELULARES = "\n SAMSUNG A12\n SAMSUNG A53\n MOTOROLA MOTO G200\n SAMSUNG NOTE 10\n MOTOROLA MOTO E40\n IPHONE XS"
-const ACCESORIOS = "\n CARGADOR SAMGUNG S8 \n CARGADOR XIAOMI P10 \n CARGADOR IPHONE X"
+let CELULARES = ['SAMSUNG A12', 'SAMSUNG A53', 'MOTOROLA MOTO G200', 'SAMSUNG NOTE 10', 'MOTOROLA MOTO E40', 'IPHONE XS'];
+let ACCESORIOS = ['CARGADOR SAMGUNG S8', 'CARGADOR XIAOMI P10', 'CARGADOR IPHONE XS',];
+
+CELULARES.push('IPHONE 11');
+
+console.log(CELULARES);
 
 alert("Elegi lo que estes necesitando")
 
@@ -47,7 +52,7 @@ if (tipo == "CELULARES") {
         case 'CARGARDOR XIAOMI P10':
             alert("EL VALOR DEL ACCESORIO ES: $950");
             break;
-        case 'CARGADOR IPHONE X':
+        case 'CARGADOR IPHONE XS':
             alert("EL VALOR DEL ACCESORIO ES: $3000");
             break;
 
@@ -59,3 +64,4 @@ if (tipo == "CELULARES") {
 } else {
     alert("Opcion NO VALIDA")
 }
+
